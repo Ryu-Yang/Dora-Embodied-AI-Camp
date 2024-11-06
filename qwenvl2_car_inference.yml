@@ -1,0 +1,77 @@
+nodes:
+  - id: mickrobot_chassis # Run on car
+    _unstable_deploy:
+      machine: ec7
+    # build: wget -nc https://github.com/dora-rs/gosim-2024/releases/download/v0.0.1/robot # cargo install --git https://github.com/lyon-dora/chongyou-car
+    path: robot
+    inputs:
+      text: dora-qwenvl/tick
+
+  - id: camera1 # Run on car
+    _unstable_deploy:
+      machine: ec7
+    # build: pip install opencv-video-capture
+    path: opencv-video-capture
+    inputs:
+      tick: dora/timer/millis/200
+    outputs:
+      - image
+    env:
+      CAPTURE_PATH: 0
+      IMAGE_WIDTH: 640
+      IMAGE_HEIGHT: 480
+      ENCODING: jpeg
+      FLIP: VERTICAL
+
+  - id: camera2 # Run on car
+    _unstable_deploy:
+      machine: ec7
+    # build: pip install opencv-video-capture
+    path: opencv-video-capture
+    inputs:
+      tick: dora/timer/millis/200
+    outputs:
+      - image
+    env:
+      CAPTURE_PATH: 2
+      IMAGE_WIDTH: 640
+      IMAGE_HEIGHT: 480
+      ENCODING: jpeg
+      FLIP: VERTICAL
+
+  - id: plot
+    # build: |
+    # wget -nc https://github.com/dora-rs/gosim-2024/releases/download/v0.0.1/rerun
+    # wget -nc https://github.com/dora-rs/gosim-2024/releases/download/v0.0.1/dora-rerun
+    path: dora-rerun
+    inputs:
+      image_1:
+        source: camera1/image
+        queue_size: 1
+      image_2:
+        source: camera2/image
+        queue_size: 1
+      textlog_vlm: dora-qwenvl-recorder/text
+    env:
+      IMAGE_WIDTH: 640
+      IMAGE_HEIGHT: 480
+      RERUN_MEMORY_LIMIT: 25%
+
+  - id: dora-qwenvl
+    build: pip install dora-qwenvl
+    path: dora-qwenvl
+    inputs:
+      image_1:
+        source: camera1/image
+        queue_size: 1
+      image_2:
+        source: camera2/image
+        queue_size: 1
+      tick: dora/timer/millis/200
+    outputs:
+      - text
+      - tick
+    env:
+      DEFAULT_QUESTION: Respond with right, left, forward, backward, stop to move to the person
+      USE_MODELSCOPE_HUB: True
+      ADAPTER_PATH: /openbayes/home/gosim-2024/sft

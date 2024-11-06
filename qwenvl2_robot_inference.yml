@@ -1,0 +1,125 @@
+nodes:
+  - id: arm # Run on car
+    # build: wget -nc https://github.com/dora-rs/gosim-2024/releases/download/v0.0.1/robot # cargo install --git https://github.com/lyon-dora/chongyou-car
+    path: dora-gen72
+    _unstable_deploy:
+      machine: ec7
+    inputs:
+      movec:
+        source: arm-interpolation/movec
+        queue_size: 1
+      movej: arm-interpolation/movej
+      claw: arm-interpolation/claw
+      save: arm-interpolation/save
+      go_to: arm-interpolation/go_to
+    env:
+      ROBOT_IP: 192.168.1.18
+      MIN_Z: "-0.04"
+
+  - id: arm-interpolation
+    path: arm_interpolation.py
+    inputs:
+      keyboard: dora-qwenvl/tick
+      text: key-interpolation/text
+    outputs:
+      - movec
+      - movej
+      - claw
+      - save
+      - go_to
+      - prompt
+
+  - id: keyboard-listener # Run on car
+    # build: pip install dora-keyboard
+    path: dora-keyboard
+    inputs:
+      tick: dora/timer/millis/10
+    outputs:
+      - char
+    env:
+      DISPLAY: :1
+
+  - id: key-interpolation
+    path: key_interpolation.py
+    inputs:
+      keyboard: keyboard-listener/char
+    outputs:
+      - text
+
+  - id: mickrobot_chassis # Run on car
+    # build: wget -nc https://github.com/dora-rs/gosim-2024/releases/download/v0.0.1/robot # cargo install --git https://github.com/lyon-dora/chongyou-car
+    path: robot
+    _unstable_deploy:
+      machine: ec7
+    inputs:
+      text: dora-qwenvl/tick
+
+  - id: camera1 # Run on car
+    _unstable_deploy:
+      machine: ec7
+    # build: pip install opencv-video-capture
+    path: opencv-video-capture
+    inputs:
+      tick: dora/timer/millis/200
+    outputs:
+      - image
+    env:
+      CAPTURE_PATH: 0
+      IMAGE_WIDTH: 640
+      IMAGE_HEIGHT: 480
+      ENCODING: jpeg
+      FLIP: BOTH
+
+  - id: camera2 # Run on car
+    _unstable_deploy:
+      machine: ec7
+    # build: pip install opencv-video-capture
+    path: opencv-video-capture
+    inputs:
+      tick: dora/timer/millis/200
+    outputs:
+      - image
+    env:
+      CAPTURE_PATH: 2
+      IMAGE_WIDTH: 640
+      IMAGE_HEIGHT: 480
+      ENCODING: jpeg
+
+  - id: plot
+    # build: |
+    # wget -nc https://github.com/dora-rs/gosim-2024/releases/download/v0.0.1/rerun
+    # wget -nc https://github.com/dora-rs/gosim-2024/releases/download/v0.0.1/dora-rerun
+    path: dora-rerun
+    inputs:
+      image_1:
+        source: camera1/image
+        queue_size: 1
+      image_2:
+        source: camera2/image
+        queue_size: 1
+      textlog_vlm: dora-qwenvl/tick
+      text_prompt: arm-interpolation/prompt
+    env:
+      IMAGE_WIDTH: 640
+      IMAGE_HEIGHT: 480
+      RERUN_MEMORY_LIMIT: 25%
+
+  - id: dora-qwenvl
+    build: pip install dora-qwenvl
+    path: dora-qwenvl
+    inputs:
+      image_1:
+        source: camera1/image
+        queue_size: 1
+      image_2:
+        source: camera2/image
+        queue_size: 1
+      tick: dora/timer/millis/200
+      text: arm-interpolation/prompt
+    outputs:
+      - text
+      - tick
+    env:
+      DEFAULT_QUESTION: Respond with arm left, arm right, arm up, arm down, open, close, or go home to grab the bottle
+      USE_MODELSCOPE_HUB: True
+      ADAPTER_PATH: /home/peter/Documents/work/LLaMA-Factory/saves/qwen2_vl-2b/lora-gosim-full/sft
