@@ -32,6 +32,7 @@ for event in node:
                 node.send_output("text", pa.array(["arm left"]))
             elif char == "k":
                 node.send_output("text", pa.array(["arm right"]))
+                print(f"""arm right""")
             elif char == "y":
                 node.send_output("text", pa.array(["arm down"]))
             elif char == "i":

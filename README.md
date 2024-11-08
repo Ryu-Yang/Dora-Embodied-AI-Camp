@@ -8,21 +8,38 @@ Official Wechat group QR code:
 
 
 ## Overview
-This project aims to show how to build a Embodied AI Robot with DORA(Dataflow-Oriented Robotic Architecture) for beginners without any background knowledge about AI, robot or programming language
 
-The project aims to demonstrate how to use DORA (Data Flow Oriented Robot Architecture) to build an embodied AI robot for beginners without any background knowledge in artificial intelligence, robotics, or programming languages
+Thid project aims to demonstrate how to use **DORA**(Data Flow Oriented Robot Architecture) and **MLLM**(Multimodal Large Language Models) to build an embodied AI robot running on **OrangePi AIpro** for beginners without any background knowledge about artificial intelligence, robotics, or programming languages.
+
 
 ## Features
 
+* Platform supported: `OrangePi AIpro` or dev boards based on ARM Cortex-A Soc.
+* OS: Ubuntu 22.04 LTS
 
-## To start on your own computer
 
-### Install dora-rs from the latest prerelease v0.3.7-rc0
+## Prerequisites(optinal)
+
+### Install Rusts
+
+### Install dora-rs
+
+
+## OrangePi or ARM Cortex-A dev boards
+
+### Start
 
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/dora-rs/dora/main/install.sh | bash -s -- --tag v0.3.7rc0
+git clone https://github.com/Ryu-Yang/Dora-Embodied-AI-Camp.git
+cd Dora-Embodied-AI-Camp
+```
 
-source ~/.bashrc
+### Install
+
+```bash
+chmod +x ./scripts/install_orangepi.sh
+./scripts/install_orangepi.sh
+source ~/.bashrcs
 ```
 
 If this is successful, you should be able to:
@@ -30,6 +47,42 @@ If this is successful, you should be able to:
 ```bash
 dora --help
 ```
+
+### Run Follower Dora Daemon Linux Service
+
+Then you should create a dora daemon service
+
+```bash
+chmod +x ./scripts/start_follower_dora_daemon_service.sh
+./scripts/start_follower_dora_daemon_service.sh
+```
+
+If this is successful, you should not have error when calling:
+
+```bash
+sudo systemctl status dora-daemon.service
+```
+
+Return:
+
+```bash
+● dora-daemon.service
+     Loaded: loaded (/etc/systemd/system/dora-daemon.service; enabled; vendor preset: enabled)
+     Active: active (running) since Wed 2024-11-06 14:53:04 CST; 21s ago
+   Main PID: 16046 (dora)
+      Tasks: 5 (limit: 27120)
+     Memory: 3.2M
+     CGroup: /system.slice/dora-daemon.service
+             └─16046 dora daemon --inter-daemon-addr 0.0.0.0:20001 --machine-id ec7
+```
+
+
+
+
+
+
+----------------------------------------------------------------------------------
+
 
 ---
 
@@ -98,53 +151,6 @@ Oct 15 00:54:12 peter-rog bash[315394]: Listening for incoming daemon connection
 
 ---
 
-### OrangePi Installation
-
-- Get the installation script either from 192.168.3.5
-
-```bash
-chmod +x ./scripts/install_orangepi.sh
-./scripts/install_orangepi.sh
-source ~/.bashrc
-```
-
-If this is successful, you should be able to:
-
-```bash
-dora --help
-```
-
----
-
-### Follower Dora Daemon Linux Service
-
-- Then you should create a dora daemon service
-
-```
-wget 192.168.3.5:8000/gosim-2024/start_follower_dora_daenon_service.sh
-chmod +x start_follower_dora_daenon_service.sh
-./start_follower_dora_daenon_service.sh
-```
-
-If this is successful, you should not have error when calling:
-
-```bash
-sudo systemctl status dora-daemon.service
-```
-
-Return:
-
-```bash
-● dora-daemon.service
-     Loaded: loaded (/etc/systemd/system/dora-daemon.service; enabled; preset: enabled)
-     Active: active (running) since Tue 2024-10-15 00:25:58 CEST; 13min ago
-   Main PID: 256635 (dora)
-      Tasks: 34 (limit: 37374)
-     Memory: 3.2M
-        CPU: 122ms
-     CGroup: /system.slice/dora-daemon.service
-             └─256635 dora daemon --inter-daemon-addr 0.0.0.0:20002
-```
 
 ---
 
