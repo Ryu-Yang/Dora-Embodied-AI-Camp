@@ -86,29 +86,28 @@ async def camera(request: sanic.Request, camera_node_name: str):
 @app.route("/arm/<prompt:str>", methods=["POST", "GET"])
 async def arm_move(request: sanic.Request, prompt: str):
     arm_controller: ArmController = app.ctx.arm_controller
-    match prompt:
-        case "forward":
-            await arm_controller.forward()
-        case "backward":
-            await arm_controller.backward()
-        case "turn_left":
-            await arm_controller.turn_left()
-        case "turn_right":
-            await arm_controller.turn_right()
-        case "down":
-            await arm_controller.down()
-        case "up":
-            await arm_controller.up()
-        case "hold":
-            await arm_controller.hold()
-        case "release":
-            await arm_controller.release()
-        case "set_home":
-            await arm_controller.set_home()
-        case "go_home":
-            await arm_controller.go_home()
-        case _:
-            return sanic.response.text(f"Error: {prompt} not found")
+    if prompt == "forward":
+        await arm_controller.forward()
+    elif prompt == "backward":
+        await arm_controller.backward()
+    elif prompt == "turn_left":
+        await arm_controller.turn_left()
+    elif prompt == "turn_right":
+        await arm_controller.turn_right()
+    elif prompt == "down":
+        await arm_controller.down()
+    elif prompt == "up":
+        await arm_controller.up()
+    elif prompt == "hold":
+        await arm_controller.hold()
+    elif prompt == "release":
+        await arm_controller.release()
+    elif prompt == "set_home":
+        await arm_controller.set_home()
+    elif prompt == "go_home":
+        await arm_controller.go_home()
+    else:
+        return sanic.response.text(f"Error: {prompt} not found")
 
     return sanic.response.text("ok")
 
@@ -116,19 +115,18 @@ async def arm_move(request: sanic.Request, prompt: str):
 @app.route("/chassis/<prompt:str>", methods=["POST", "GET"])
 async def chassis_move(request: sanic.Request, prompt: str):
     chassis_controller: ChassisController = app.ctx.chassis_controller
-    match prompt:
-        case "forward":
-            await chassis_controller.forward()
-        case "backward":
-            await chassis_controller.backward()
-        case "turn_left":
-            await chassis_controller.turn_left()
-        case "turn_right":
-            await chassis_controller.turn_right()
-        case "stop":
-            await chassis_controller.stop()
-        case _:
-            return sanic.response.text(f"Error: {prompt} not found")
+    if prompt == "forward":
+        await chassis_controller.forward()
+    elif prompt == "backward":
+        await chassis_controller.backward()
+    elif prompt == "turn_left":
+        await chassis_controller.turn_left()
+    elif prompt == "turn_right":
+        await chassis_controller.turn_right()
+    elif prompt == "stop":
+        await chassis_controller.stop()
+    else:
+        return sanic.response.text(f"Error: {prompt} not found")
 
     return sanic.response.text("ok")
 

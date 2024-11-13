@@ -26,6 +26,6 @@ fi
 
 # 以分离模式启动API服务
 echo "正在启动API服务..."
-dora start ./api.yml --detach
+dora start ./api.yml
 
 echo "RestAPI服务启动完成"
