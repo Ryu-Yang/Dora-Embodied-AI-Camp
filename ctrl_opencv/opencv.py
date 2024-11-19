@@ -91,7 +91,7 @@ color_dist = {'red': {'Lower': np.array([0, 60, 60]), 'Upper': np.array([6, 255,
 target_color = ['yellow']
 
 #创建摄像头
-capture = cv2.VideoCapture(0)
+capture = cv2.VideoCapture(4)
 
 #初始化保存图片的编号
 count=0
