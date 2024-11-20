@@ -1,0 +1,73 @@
+
+    ⚠ The version of the Rerun Viewer available on your PATH does not match the version of your Rerun SDK ⚠
+
+    Rerun does not make any kind of backwards/forwards compatibility guarantee yet: this can lead to (subtle) bugs.
+
+    > Rerun Viewer: v0.15.1 (executable: "rerun")
+    > Rerun SDK: v0.19.1
+
+    You can install an appropriate version of the Rerun Viewer via binary releases:
+    * Using `cargo`: `cargo binstall --force rerun-cli@0.19.1` (see https://github.com/cargo-bins/cargo-binstall)
+    * Via direct download from our release assets: https://github.com/rerun-io/rerun/releases/0.19.1/
+    * Using `pip`: `pip3 install rerun-sdk==0.19.1`
+
+    For more information, refer to our complete install documentation over at:
+    https://rerun.io/docs/getting-started/installing-viewer
+    
+[2024-11-14T08:23:54Z INFO  re_sdk_comms::server] Hosting a SDK server over TCP at 0.0.0.0:9876. Connect with the Rerun logging SDK.
+[2024-11-14T08:23:55Z INFO  egui_wgpu] There were 2 available wgpu adapters: {backend: Vulkan, device_type: DiscreteGpu, name: "NVIDIA GeForce RTX 3080 Laptop GPU", driver: "NVIDIA", driver_info: "556.12", vendor: 0x10DE, device: 0x24DC}, {backend: Vulkan, device_type: IntegratedGpu, name: "Intel(R) UHD Graphics", driver: "Intel Corporation", driver_info: "Intel driver", vendor: 0x8086, device: 0x9A60}
+[2024-11-14T08:23:55Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:60283
+[2024-11-14T08:23:55Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:60283: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:55Z WARN  re_viewer::app] Data source tcp://127.0.0.1:60283 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:55Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:60290
+[2024-11-14T08:23:55Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:60290: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:55Z WARN  re_viewer::app] Data source tcp://127.0.0.1:60290 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:55Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:60292
+[2024-11-14T08:23:55Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:60292: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:55Z WARN  re_viewer::app] Data source tcp://127.0.0.1:60292 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:55Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:60293
+[2024-11-14T08:23:55Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:60293: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:55Z WARN  re_viewer::app] Data source tcp://127.0.0.1:60293 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:56Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:60294
+[2024-11-14T08:23:56Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:60294: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:56Z WARN  re_viewer::app] Data source tcp://127.0.0.1:60294 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:56Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:60295
+[2024-11-14T08:23:56Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:60295: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:56Z WARN  re_viewer::app] Data source tcp://127.0.0.1:60295 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:56Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:60296
+[2024-11-14T08:23:56Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:60296: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:56Z WARN  re_viewer::app] Data source tcp://127.0.0.1:60296 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:56Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:60323
+[2024-11-14T08:23:56Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:60323: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:56Z WARN  re_viewer::app] Data source tcp://127.0.0.1:60323 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:57Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:60324
+[2024-11-14T08:23:57Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:60324: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:57Z WARN  re_viewer::app] Data source tcp://127.0.0.1:60324 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:57Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:60325
+[2024-11-14T08:23:57Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:60325: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:57Z WARN  re_viewer::app] Data source tcp://127.0.0.1:60325 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:57Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:60327
+[2024-11-14T08:23:57Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:60327: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:57Z WARN  re_viewer::app] Data source tcp://127.0.0.1:60327 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:23:57Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/rgbd/2fde3a620adc8bd9a5680260f0792d16ac5498bd/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:23:57Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/dicom-mri/d5a434f92504e8dda8af6c7f4eded2a9d662c991/480w.png": Failed to read response body: 应用程序没有调用 WSAStartup，或者 WSAStartup 失败。 (os error 10093)
+[2024-11-14T08:23:57Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/open-photogrammetry-format/c9bec43a3a3abd725a55ee8eb527a4c0cb01979b/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:23:57Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/raw-mesh/7731418dda47e15dbfc0f9a2c32673909071cb40/480w.png": Failed to read response body: 应用程序没有调用 WSAStartup，或者 WSAStartup 失败。 (os error 10093)
+[2024-11-14T08:23:57Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/structure-from-motion/af24e5e8961f46a9c10399dbc31b6611eea563b4/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:23:57Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/nuscenes/9c50bf5cadb879ef818ac3d35fe75696a9586cb4/480w.png": Failed to read response body: 应用程序没有调用 WSAStartup，或者 WSAStartup 失败。 (os error 10093)
+[2024-11-14T08:23:57Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/rrt-star/fbbda33bdbbfa469ec95c905178ac3653920473a/480w.png": Failed to read response body: 应用程序没有调用 WSAStartup，或者 WSAStartup 失败。 (os error 10093)
+[2024-11-14T08:23:57Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/arkit-scenes/6d920eaa42fb86cfd264d47180ecbecbb6dd3e09/480w.png": Failed to read response body: 应用程序没有调用 WSAStartup，或者 WSAStartup 失败。 (os error 10093)
+[2024-11-14T08:23:57Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/segment-anything-model/36438df27a287e5eff3a673e2464af071e665fdf/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:23:57Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/detect-and-track-objects/63d7684ab1504c86a5375cb5db0fc515af433e08/480w.png": Failed to read response body: 应用程序没有调用 WSAStartup，或者 WSAStartup 失败。 (os error 10093)
+[2024-11-14T08:23:57Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/human-pose-tracking/5d62a38b48bed1467698d4dc95c1f9fba786d254/480w.png": Failed to read response body: 应用程序没有调用 WSAStartup，或者 WSAStartup 失败。 (os error 10093)
+[2024-11-14T08:23:57Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/plots/e8e51071f6409f61dc04a655d6b9e1caf8179226/480w.png": Failed to read response body: 应用程序没有调用 WSAStartup，或者 WSAStartup 失败。 (os error 10093)
+[2024-11-14T08:23:57Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/dna/40d9744af3f0e21d3b174054f0a935662a574ce0/480w.png": Failed to read response body: 应用程序没有调用 WSAStartup，或者 WSAStartup 失败。 (os error 10093)
+[2m2024-11-14T08:24:01.972723Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Failed to send message after 3 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:24:10.910797Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 6 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:24:15.979623Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 7 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:24:21.028430Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 8 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:24:26.070860Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 9 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:24:31.119623Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 10 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:24:36.168877Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 11 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:24:41.217820Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 12 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:24:46.256657Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 13 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)

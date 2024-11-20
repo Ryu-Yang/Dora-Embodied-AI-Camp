@@ -1,0 +1,29 @@
+
+    ⚠ The version of the Rerun Viewer available on your PATH does not match the version of your Rerun SDK ⚠
+
+    Rerun does not make any kind of backwards/forwards compatibility guarantee yet: this can lead to (subtle) bugs.
+
+    > Rerun Viewer: v0.20.0 (executable: "rerun")
+    > Rerun SDK: v0.19.1
+
+    You can install an appropriate version of the Rerun Viewer via binary releases:
+    * Using `cargo`: `cargo binstall --force rerun-cli@0.19.1` (see https://github.com/cargo-bins/cargo-binstall)
+    * Via direct download from our release assets: https://github.com/rerun-io/rerun/releases/0.19.1/
+    * Using `pip`: `pip3 install rerun-sdk==0.19.1`
+
+    For more information, refer to our complete install documentation over at:
+    https://rerun.io/docs/getting-started/installing-viewer
+    
+[2024-11-18T07:31:40Z INFO  re_sdk_comms::server] Hosting a SDK server over TCP at 0.0.0.0:9876. Connect with the Rerun logging SDK.
+[2024-11-18T07:31:41Z INFO  egui_wgpu] There were 3 available wgpu adapters: {backend: Vulkan, device_type: DiscreteGpu, name: "NVIDIA GeForce RTX 3080 Laptop GPU", driver: "NVIDIA", driver_info: "556.12", vendor: 0x10DE, device: 0x24DC}, {backend: Vulkan, device_type: IntegratedGpu, name: "Intel(R) UHD Graphics", driver: "Intel Corporation", driver_info: "Intel driver", vendor: 0x8086, device: 0x9A60}, {backend: Gl, device_type: Other, name: "NVIDIA GeForce RTX 3080 Laptop GPU/PCIe/SSE2", driver_info: "4.6.0 NVIDIA 556.12", vendor: 0x10DE}
+[2024-11-18T07:31:41Z INFO  re_sdk_comms::server] New SDK client connected from: 127.0.0.1:60898
+[2024-11-18T07:31:41Z WARN  re_log_encoding::decoder] Found log stream with Rerun version 0.19.1, which is incompatible with the local Rerun version 0.20.0. Loading will try to continue, but might fail in subtle ways.
+[2024-11-18T07:32:09Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:60898: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+Error: Could not initialize dora node
+
+Caused by:
+   0: failed to init event stream
+   1: subscribe failed: Node dora-qwenvl exited before initializing dora. For more information, run `dora logs 01933e2f-28f2-7a0a-8089-7f65c12dae2a dora-qwenvl`.
+
+Location:
+    apis\rust\node\src\event_stream\mod.rs:101:17

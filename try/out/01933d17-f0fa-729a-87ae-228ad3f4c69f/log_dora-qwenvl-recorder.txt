@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\site-packages\llama_factory_recorder\main.py", line 27, in write_dict_to_json
+    with open(file_path, "r+", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '\\home\\peter\\Documents\\work\\LLaMA-Factory\\data\\dataset_info.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\Scripts\llama-factory-recorder.exe\__main__.py", line 7, in <module>
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\site-packages\llama_factory_recorder\main.py", line 112, in main
+    write_dict_to_json(
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\site-packages\llama_factory_recorder\main.py", line 41, in write_dict_to_json
+    with open(file_path, "w", encoding="utf-8") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '\\home\\peter\\Documents\\work\\LLaMA-Factory\\data\\dataset_info.json'

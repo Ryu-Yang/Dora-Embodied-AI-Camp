@@ -1,0 +1,6 @@
+object address  : 000002A2CD7E1DE0
+object refcount : 2
+object type     : 00007FF9E2FCEBF0
+object type name: RuntimeError
+object repr     : RuntimeError('Couldn not initiate node from environment variable. For dynamic node, please add a node id in the initialization function.\n\nCaused by:\n   0: failed to init event stream\n   1: subscribe failed: Node arm exited before initializing dora. For more information, run `dora logs 01933ed4-e435-7b4f-97ab-fa70acc8134f arm`.\n\nLocation:\n    apis\\rust\\node\\src\\event_stream\\mod.rs:101:17')
+lost sys.stderr

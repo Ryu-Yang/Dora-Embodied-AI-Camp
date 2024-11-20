@@ -1,0 +1,1032 @@
+
+    ⚠ The version of the Rerun Viewer available on your PATH does not match the version of your Rerun SDK ⚠
+
+    Rerun does not make any kind of backwards/forwards compatibility guarantee yet: this can lead to (subtle) bugs.
+
+    > Rerun Viewer: v0.15.1 (executable: "rerun")
+    > Rerun SDK: v0.19.1
+
+    You can install an appropriate version of the Rerun Viewer via binary releases:
+    * Using `cargo`: `cargo binstall --force rerun-cli@0.19.1` (see https://github.com/cargo-bins/cargo-binstall)
+    * Via direct download from our release assets: https://github.com/rerun-io/rerun/releases/0.19.1/
+    * Using `pip`: `pip3 install rerun-sdk==0.19.1`
+
+    For more information, refer to our complete install documentation over at:
+    https://rerun.io/docs/getting-started/installing-viewer
+    
+[2024-11-18T02:31:28Z INFO  re_sdk_comms::server] Hosting a SDK server over TCP at 0.0.0.0:9876. Connect with the Rerun logging SDK.
+[2024-11-18T02:31:29Z INFO  egui_wgpu] There were 2 available wgpu adapters: {backend: Vulkan, device_type: DiscreteGpu, name: "NVIDIA GeForce RTX 3080 Laptop GPU", driver: "NVIDIA", driver_info: "556.12", vendor: 0x10DE, device: 0x24DC}, {backend: Vulkan, device_type: IntegratedGpu, name: "Intel(R) UHD Graphics", driver: "Intel Corporation", driver_info: "Intel driver", vendor: 0x8086, device: 0x9A60}
+[2024-11-18T02:31:29Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52312
+[2024-11-18T02:31:29Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52312: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:29Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52312 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:31Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52357
+[2024-11-18T02:31:31Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52357: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:31Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52357 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:31Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52358
+[2024-11-18T02:31:31Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52358: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:31Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52358 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52359
+[2024-11-18T02:31:32Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52359: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52359 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52360
+[2024-11-18T02:31:32Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52360: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52360 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52361
+[2024-11-18T02:31:32Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52361: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52361 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52362
+[2024-11-18T02:31:32Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52362: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52362 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52363
+[2024-11-18T02:31:32Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52363: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52363 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52364
+[2024-11-18T02:31:32Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52364: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52364 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52365
+[2024-11-18T02:31:32Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52365: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52365 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52366
+[2024-11-18T02:31:32Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52366: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52366 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52367
+[2024-11-18T02:31:32Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52367: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:32Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52367 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:33Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52368
+[2024-11-18T02:31:33Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52368: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:33Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52368 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:33Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52369
+[2024-11-18T02:31:33Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52369: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:33Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52369 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:33Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52370
+[2024-11-18T02:31:33Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52370: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:33Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52370 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:33Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52371
+[2024-11-18T02:31:33Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52371: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:33Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52371 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:33Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52372
+[2024-11-18T02:31:33Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52372: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:33Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52372 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:34Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52373
+[2024-11-18T02:31:34Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52373: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:34Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52373 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:34Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52374
+[2024-11-18T02:31:34Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52374: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:34Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52374 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:35Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52375
+[2024-11-18T02:31:35Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52375: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:35Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52375 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:35Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52376
+[2024-11-18T02:31:35Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52376: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:35Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52376 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:35Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52377
+[2024-11-18T02:31:35Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52377: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:35Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52377 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:35Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52378
+[2024-11-18T02:31:35Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52378: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:35Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52378 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:36Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52379
+[2024-11-18T02:31:36Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52379: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:36Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52379 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:36Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52380
+[2024-11-18T02:31:36Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52380: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:36Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52380 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:36Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52381
+[2024-11-18T02:31:36Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52381: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:36Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52381 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:36Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52382
+[2024-11-18T02:31:36Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52382: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:36Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52382 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52383
+[2024-11-18T02:31:37Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52383: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52383 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52384
+[2024-11-18T02:31:37Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52384: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52384 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52385
+[2024-11-18T02:31:37Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52385: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52385 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52386
+[2024-11-18T02:31:37Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52386: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52386 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52387
+[2024-11-18T02:31:37Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52387: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52387 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52388
+[2024-11-18T02:31:37Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52388: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52388 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52389
+[2024-11-18T02:31:37Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52389: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52389 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52390
+[2024-11-18T02:31:37Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52390: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:37Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52390 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52391
+[2024-11-18T02:31:38Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52391: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52391 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52392
+[2024-11-18T02:31:38Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52392: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52392 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52393
+[2024-11-18T02:31:38Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52393: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52393 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52394
+[2024-11-18T02:31:38Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52394: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52394 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52395
+[2024-11-18T02:31:38Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52395: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52395 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52396
+[2024-11-18T02:31:38Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52396: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52396 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52397
+[2024-11-18T02:31:38Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52397: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52397 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52398
+[2024-11-18T02:31:38Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52398: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52398 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52399
+[2024-11-18T02:31:38Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52399: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:38Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52399 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:39Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52400
+[2024-11-18T02:31:39Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52400: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:39Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52400 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:39Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52401
+[2024-11-18T02:31:39Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52401: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:39Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52401 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:39Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52402
+[2024-11-18T02:31:39Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52402: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:39Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52402 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:39Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52403
+[2024-11-18T02:31:39Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52403: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:39Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52403 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:39Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52404
+[2024-11-18T02:31:39Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52404: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:39Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52404 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:39Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52405
+[2024-11-18T02:31:39Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52405: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:39Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52405 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52406
+[2024-11-18T02:31:40Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52406: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52406 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52407
+[2024-11-18T02:31:40Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52407: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52407 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52408
+[2024-11-18T02:31:40Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52408: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52408 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52409
+[2024-11-18T02:31:40Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52409: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52409 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52410
+[2024-11-18T02:31:40Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52410: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52410 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52411
+[2024-11-18T02:31:40Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52411: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52411 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52412
+[2024-11-18T02:31:40Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52412: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52412 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52413
+[2024-11-18T02:31:40Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52413: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52413 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52414
+[2024-11-18T02:31:40Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52414: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:40Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52414 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:41Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52415
+[2024-11-18T02:31:41Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52415: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:41Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52415 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:41Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52416
+[2024-11-18T02:31:41Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52416: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:41Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52416 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:41Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52417
+[2024-11-18T02:31:41Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52417: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:41Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52417 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:41Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52418
+[2024-11-18T02:31:41Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52418: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:41Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52418 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:41Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52419
+[2024-11-18T02:31:41Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52419: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:41Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52419 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:42Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52420
+[2024-11-18T02:31:42Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52420: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:42Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52420 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:42Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52421
+[2024-11-18T02:31:42Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52421: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:42Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52421 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:42Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52422
+[2024-11-18T02:31:42Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52422: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:42Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52422 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:43Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52423
+[2024-11-18T02:31:43Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52423: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:43Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52423 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:45Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52424
+[2024-11-18T02:31:45Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52424: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:45Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52424 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:48Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52425
+[2024-11-18T02:31:48Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52425: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:48Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52425 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:51Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52426
+[2024-11-18T02:31:51Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52426: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:51Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52426 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:54Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52427
+[2024-11-18T02:31:54Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52427: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:54Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52427 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:57Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52428
+[2024-11-18T02:31:57Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52428: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:31:57Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52428 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:00Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52429
+[2024-11-18T02:32:00Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52429: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:00Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52429 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:00Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52430
+[2024-11-18T02:32:00Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52430: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:00Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52430 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:00Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52431
+[2024-11-18T02:32:00Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52431: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:00Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52431 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:00Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52432
+[2024-11-18T02:32:00Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52432: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:00Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52432 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:00Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52433
+[2024-11-18T02:32:00Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52433: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:00Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52433 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:01Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52434
+[2024-11-18T02:32:01Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52434: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:01Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52434 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:01Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52435
+[2024-11-18T02:32:01Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52435: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:01Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52435 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:01Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52436
+[2024-11-18T02:32:01Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52436: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:01Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52436 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52437
+[2024-11-18T02:32:02Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52437: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52437 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52438
+[2024-11-18T02:32:02Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52438: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52438 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52439
+[2024-11-18T02:32:02Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52439: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52439 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52440
+[2024-11-18T02:32:02Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52440: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52440 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52441
+[2024-11-18T02:32:02Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52441: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52441 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52442
+[2024-11-18T02:32:02Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52442: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52442 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52443
+[2024-11-18T02:32:02Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52443: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52443 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52444
+[2024-11-18T02:32:02Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52444: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52444 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52445
+[2024-11-18T02:32:02Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52445: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:02Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52445 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52446
+[2024-11-18T02:32:03Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52446: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52446 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52447
+[2024-11-18T02:32:03Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52447: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52447 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52448
+[2024-11-18T02:32:03Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52448: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52448 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52449
+[2024-11-18T02:32:03Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52449: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52449 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52450
+[2024-11-18T02:32:03Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52450: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52450 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52451
+[2024-11-18T02:32:03Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52451: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52451 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52452
+[2024-11-18T02:32:03Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52452: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52452 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52453
+[2024-11-18T02:32:03Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52453: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52453 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52454
+[2024-11-18T02:32:03Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52454: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:03Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52454 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52455
+[2024-11-18T02:32:04Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52455: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52455 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52456
+[2024-11-18T02:32:04Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52456: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52456 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52457
+[2024-11-18T02:32:04Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52457: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52457 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52458
+[2024-11-18T02:32:04Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52458: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52458 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52459
+[2024-11-18T02:32:04Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52459: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52459 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52460
+[2024-11-18T02:32:04Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52460: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52460 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52461
+[2024-11-18T02:32:04Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52461: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52461 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52462
+[2024-11-18T02:32:04Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52462: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52462 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52463
+[2024-11-18T02:32:04Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52463: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:04Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52463 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52464
+[2024-11-18T02:32:05Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52464: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52464 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52465
+[2024-11-18T02:32:05Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52465: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52465 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52466
+[2024-11-18T02:32:05Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52466: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52466 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52467
+[2024-11-18T02:32:05Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52467: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52467 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52468
+[2024-11-18T02:32:05Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52468: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52468 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52469
+[2024-11-18T02:32:05Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52469: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52469 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52470
+[2024-11-18T02:32:05Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52470: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52470 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52471
+[2024-11-18T02:32:05Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52471: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:05Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52471 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52472
+[2024-11-18T02:32:06Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52472: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52472 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52473
+[2024-11-18T02:32:06Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52473: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52473 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52474
+[2024-11-18T02:32:06Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52474: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52474 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52475
+[2024-11-18T02:32:06Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52475: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52475 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52476
+[2024-11-18T02:32:06Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52476: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52476 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52477
+[2024-11-18T02:32:06Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52477: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52477 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52478
+[2024-11-18T02:32:06Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52478: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52478 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52479
+[2024-11-18T02:32:06Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52479: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52479 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52480
+[2024-11-18T02:32:06Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52480: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:06Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52480 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52481
+[2024-11-18T02:32:07Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52481: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52481 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52482
+[2024-11-18T02:32:07Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52482: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52482 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52483
+[2024-11-18T02:32:07Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52483: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52483 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52484
+[2024-11-18T02:32:07Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52484: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52484 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52485
+[2024-11-18T02:32:07Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52485: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52485 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52486
+[2024-11-18T02:32:07Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52486: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52486 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52487
+[2024-11-18T02:32:07Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52487: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52487 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52488
+[2024-11-18T02:32:07Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52488: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52488 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52489
+[2024-11-18T02:32:07Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52489: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:07Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52489 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52490
+[2024-11-18T02:32:08Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52490: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52490 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52491
+[2024-11-18T02:32:08Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52491: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52491 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52492
+[2024-11-18T02:32:08Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52492: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52492 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52493
+[2024-11-18T02:32:08Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52493: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52493 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52494
+[2024-11-18T02:32:08Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52494: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52494 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52495
+[2024-11-18T02:32:08Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52495: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52495 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52496
+[2024-11-18T02:32:08Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52496: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52496 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52497
+[2024-11-18T02:32:08Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52497: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52497 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52498
+[2024-11-18T02:32:08Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52498: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52498 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52499
+[2024-11-18T02:32:08Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52499: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:08Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52499 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52500
+[2024-11-18T02:32:09Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52500: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52500 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52501
+[2024-11-18T02:32:09Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52501: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52501 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52502
+[2024-11-18T02:32:09Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52502: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52502 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52503
+[2024-11-18T02:32:09Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52503: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52503 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52504
+[2024-11-18T02:32:09Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52504: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52504 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52505
+[2024-11-18T02:32:09Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52505: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52505 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52506
+[2024-11-18T02:32:09Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52506: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52506 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52507
+[2024-11-18T02:32:09Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52507: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:09Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52507 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52508
+[2024-11-18T02:32:10Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52508: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52508 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52509
+[2024-11-18T02:32:10Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52509: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52509 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52510
+[2024-11-18T02:32:10Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52510: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52510 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52511
+[2024-11-18T02:32:10Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52511: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52511 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52512
+[2024-11-18T02:32:10Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52512: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52512 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52513
+[2024-11-18T02:32:10Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52513: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52513 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52514
+[2024-11-18T02:32:10Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52514: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52514 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52515
+[2024-11-18T02:32:10Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52515: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52515 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52516
+[2024-11-18T02:32:10Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52516: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:10Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52516 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52517
+[2024-11-18T02:32:11Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52517: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52517 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52518
+[2024-11-18T02:32:11Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52518: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52518 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52519
+[2024-11-18T02:32:11Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52519: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52519 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52520
+[2024-11-18T02:32:11Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52520: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52520 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52521
+[2024-11-18T02:32:11Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52521: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52521 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52522
+[2024-11-18T02:32:11Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52522: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52522 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52523
+[2024-11-18T02:32:11Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52523: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52523 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52524
+[2024-11-18T02:32:11Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52524: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:11Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52524 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52525
+[2024-11-18T02:32:12Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52525: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52525 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52526
+[2024-11-18T02:32:12Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52526: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52526 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52527
+[2024-11-18T02:32:12Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52527: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52527 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52528
+[2024-11-18T02:32:12Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52528: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52528 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52529
+[2024-11-18T02:32:12Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52529: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52529 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52530
+[2024-11-18T02:32:12Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52530: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52530 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52539
+[2024-11-18T02:32:12Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52539: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52539 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52540
+[2024-11-18T02:32:12Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52540: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52540 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52541
+[2024-11-18T02:32:12Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52541: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:12Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52541 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52542
+[2024-11-18T02:32:13Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52542: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52542 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52543
+[2024-11-18T02:32:13Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52543: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52543 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52544
+[2024-11-18T02:32:13Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52544: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52544 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52545
+[2024-11-18T02:32:13Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52545: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52545 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52546
+[2024-11-18T02:32:13Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52546: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52546 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52547
+[2024-11-18T02:32:13Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52547: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52547 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52548
+[2024-11-18T02:32:13Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52548: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52548 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52549
+[2024-11-18T02:32:13Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52549: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:13Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52549 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52550
+[2024-11-18T02:32:14Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52550: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52550 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52551
+[2024-11-18T02:32:14Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52551: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52551 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52552
+[2024-11-18T02:32:14Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52552: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52552 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52553
+[2024-11-18T02:32:14Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52553: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52553 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52554
+[2024-11-18T02:32:14Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52554: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52554 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52555
+[2024-11-18T02:32:14Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52555: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52555 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52556
+[2024-11-18T02:32:14Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52556: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52556 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52557
+[2024-11-18T02:32:14Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52557: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52557 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52558
+[2024-11-18T02:32:14Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52558: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:14Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52558 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52559
+[2024-11-18T02:32:15Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52559: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52559 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52560
+[2024-11-18T02:32:15Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52560: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52560 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52561
+[2024-11-18T02:32:15Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52561: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52561 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52562
+[2024-11-18T02:32:15Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52562: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52562 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52563
+[2024-11-18T02:32:15Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52563: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52563 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52564
+[2024-11-18T02:32:15Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52564: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52564 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52565
+[2024-11-18T02:32:15Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52565: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52565 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52566
+[2024-11-18T02:32:15Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52566: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:15Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52566 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52567
+[2024-11-18T02:32:16Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52567: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52567 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52568
+[2024-11-18T02:32:16Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52568: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52568 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52569
+[2024-11-18T02:32:16Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52569: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52569 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52570
+[2024-11-18T02:32:16Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52570: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52570 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52571
+[2024-11-18T02:32:16Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52571: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52571 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52572
+[2024-11-18T02:32:16Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52572: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52572 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52573
+[2024-11-18T02:32:16Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52573: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52573 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52574
+[2024-11-18T02:32:16Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52574: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52574 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52575
+[2024-11-18T02:32:16Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52575: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52575 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52576
+[2024-11-18T02:32:16Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52576: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:16Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52576 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52577
+[2024-11-18T02:32:17Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52577: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52577 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52578
+[2024-11-18T02:32:17Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52578: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52578 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52579
+[2024-11-18T02:32:17Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52579: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52579 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52580
+[2024-11-18T02:32:17Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52580: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52580 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52581
+[2024-11-18T02:32:17Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52581: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52581 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52582
+[2024-11-18T02:32:17Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52582: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52582 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52583
+[2024-11-18T02:32:17Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52583: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52583 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52584
+[2024-11-18T02:32:17Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52584: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:17Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52584 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52585
+[2024-11-18T02:32:18Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52585: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52585 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52586
+[2024-11-18T02:32:18Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52586: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52586 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52587
+[2024-11-18T02:32:18Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52587: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52587 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52588
+[2024-11-18T02:32:18Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52588: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52588 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52589
+[2024-11-18T02:32:18Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52589: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52589 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52590
+[2024-11-18T02:32:18Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52590: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52590 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52591
+[2024-11-18T02:32:18Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52591: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52591 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52592
+[2024-11-18T02:32:18Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52592: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:18Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52592 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52593
+[2024-11-18T02:32:19Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52593: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52593 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52594
+[2024-11-18T02:32:19Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52594: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52594 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52595
+[2024-11-18T02:32:19Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52595: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52595 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52596
+[2024-11-18T02:32:19Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52596: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52596 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52597
+[2024-11-18T02:32:19Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52597: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52597 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52598
+[2024-11-18T02:32:19Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52598: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52598 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52599
+[2024-11-18T02:32:19Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52599: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52599 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52600
+[2024-11-18T02:32:19Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52600: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52600 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52601
+[2024-11-18T02:32:19Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52601: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52601 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52602
+[2024-11-18T02:32:19Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52602: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:19Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52602 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52603
+[2024-11-18T02:32:20Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52603: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52603 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52604
+[2024-11-18T02:32:20Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52604: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52604 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52605
+[2024-11-18T02:32:20Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52605: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52605 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52606
+[2024-11-18T02:32:20Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52606: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52606 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52607
+[2024-11-18T02:32:20Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52607: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52607 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52608
+[2024-11-18T02:32:20Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52608: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52608 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52609
+[2024-11-18T02:32:20Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52609: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52609 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52610
+[2024-11-18T02:32:20Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52610: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52610 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52611
+[2024-11-18T02:32:20Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52611: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:20Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52611 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:21Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52612
+[2024-11-18T02:32:21Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52612: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:21Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52612 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:21Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52613
+[2024-11-18T02:32:21Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52613: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:21Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52613 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:21Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52614
+[2024-11-18T02:32:21Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52614: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:21Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52614 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:21Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52615
+[2024-11-18T02:32:21Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52615: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:21Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52615 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:21Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52616
+[2024-11-18T02:32:21Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52616: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:21Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52616 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:22Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52617
+[2024-11-18T02:32:22Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52617: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:22Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52617 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:22Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52618
+[2024-11-18T02:32:22Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52618: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:22Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52618 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:22Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52619
+[2024-11-18T02:32:22Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52619: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:22Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52619 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:22Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52620
+[2024-11-18T02:32:22Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52620: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:22Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52620 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:22Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52621
+[2024-11-18T02:32:22Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52621: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:22Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52621 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:22Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52622
+[2024-11-18T02:32:22Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52622: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:22Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52622 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:23Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52623
+[2024-11-18T02:32:23Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52623: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:23Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52623 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:23Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52624
+[2024-11-18T02:32:23Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52624: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:23Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52624 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:23Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52625
+[2024-11-18T02:32:23Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52625: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:23Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52625 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52626
+[2024-11-18T02:32:24Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52626: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52626 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52627
+[2024-11-18T02:32:24Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52627: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52627 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52628
+[2024-11-18T02:32:24Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52628: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52628 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52629
+[2024-11-18T02:32:24Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52629: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52629 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52630
+[2024-11-18T02:32:24Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52630: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52630 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52631
+[2024-11-18T02:32:24Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52631: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52631 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52632
+[2024-11-18T02:32:24Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52632: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52632 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52633
+[2024-11-18T02:32:24Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52633: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52633 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52634
+[2024-11-18T02:32:24Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52634: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:24Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52634 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52635
+[2024-11-18T02:32:25Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52635: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52635 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52636
+[2024-11-18T02:32:25Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52636: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52636 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52637
+[2024-11-18T02:32:25Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52637: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52637 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52638
+[2024-11-18T02:32:25Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52638: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52638 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52639
+[2024-11-18T02:32:25Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52639: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52639 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52640
+[2024-11-18T02:32:25Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52640: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52640 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52641
+[2024-11-18T02:32:25Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52641: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52641 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52642
+[2024-11-18T02:32:25Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52642: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:25Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52642 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52643
+[2024-11-18T02:32:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52643: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52643 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52644
+[2024-11-18T02:32:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52644: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52644 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52645
+[2024-11-18T02:32:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52645: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52645 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52646
+[2024-11-18T02:32:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52646: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52646 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52647
+[2024-11-18T02:32:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52647: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52647 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52648
+[2024-11-18T02:32:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52648: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52648 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52649
+[2024-11-18T02:32:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52649: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52649 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52650
+[2024-11-18T02:32:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52650: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52650 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52651
+[2024-11-18T02:32:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52651: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52651 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52652
+[2024-11-18T02:32:27Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52652: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52652 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52653
+[2024-11-18T02:32:27Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52653: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52653 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52654
+[2024-11-18T02:32:27Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52654: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52654 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52655
+[2024-11-18T02:32:27Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52655: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52655 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52656
+[2024-11-18T02:32:27Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52656: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52656 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52657
+[2024-11-18T02:32:27Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52657: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52657 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52658
+[2024-11-18T02:32:27Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52658: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52658 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52659
+[2024-11-18T02:32:27Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52659: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52659 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52660
+[2024-11-18T02:32:27Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52660: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:27Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52660 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52661
+[2024-11-18T02:32:28Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52661: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52661 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52662
+[2024-11-18T02:32:28Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52662: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52662 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52663
+[2024-11-18T02:32:28Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52663: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52663 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52664
+[2024-11-18T02:32:28Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52664: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52664 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52665
+[2024-11-18T02:32:28Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52665: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52665 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52666
+[2024-11-18T02:32:28Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52666: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52666 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52667
+[2024-11-18T02:32:28Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52667: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52667 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52668
+[2024-11-18T02:32:28Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52668: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:28Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52668 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52669
+[2024-11-18T02:32:29Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52669: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52669 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52670
+[2024-11-18T02:32:29Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52670: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52670 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52671
+[2024-11-18T02:32:29Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52671: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52671 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52672
+[2024-11-18T02:32:29Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52672: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52672 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52673
+[2024-11-18T02:32:29Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52673: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52673 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52674
+[2024-11-18T02:32:29Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52674: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52674 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52675
+[2024-11-18T02:32:29Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52675: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52675 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52676
+[2024-11-18T02:32:29Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52676: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52676 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52677
+[2024-11-18T02:32:29Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52677: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:29Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52677 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52678
+[2024-11-18T02:32:30Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52678: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52678 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52679
+[2024-11-18T02:32:30Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52679: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52679 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52680
+[2024-11-18T02:32:30Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52680: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52680 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52681
+[2024-11-18T02:32:30Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52681: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52681 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52682
+[2024-11-18T02:32:30Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52682: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52682 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52683
+[2024-11-18T02:32:30Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52683: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52683 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52684
+[2024-11-18T02:32:30Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52684: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52684 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52685
+[2024-11-18T02:32:30Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52685: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:30Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52685 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52686
+[2024-11-18T02:32:31Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52686: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52686 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52687
+[2024-11-18T02:32:31Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52687: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52687 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52688
+[2024-11-18T02:32:31Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52688: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52688 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52689
+[2024-11-18T02:32:31Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52689: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52689 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52690
+[2024-11-18T02:32:31Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52690: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52690 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52691
+[2024-11-18T02:32:31Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52691: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52691 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52692
+[2024-11-18T02:32:31Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52692: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52692 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52693
+[2024-11-18T02:32:31Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52693: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52693 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52694
+[2024-11-18T02:32:31Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52694: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:31Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52694 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:32Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52695
+[2024-11-18T02:32:32Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52695: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:32Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52695 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:32Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52696
+[2024-11-18T02:32:32Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52696: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:32Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52696 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:32Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:52697
+[2024-11-18T02:32:32Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:52697: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-18T02:32:32Z WARN  re_viewer::app] Data source tcp://127.0.0.1:52697 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2m2024-11-18T02:31:33.701979Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Failed to send message after 3 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-18T02:31:35.337159Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Failed to send message after 3 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-18T02:31:39.357335Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Failed to send message after 3 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-18T02:31:41.388741Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Failed to send message after 3 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-18T02:31:42.226656Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Failed to send message after 3 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-18T02:32:00.511532Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Failed to send message after 3 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-18T02:32:21.179408Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Failed to send message after 3 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-18T02:32:22.655275Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Failed to send message after 3 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-18T02:32:31.972229Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Failed to send message after 3 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-18T02:32:36.937627Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Failed to send message after 3 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-18T02:32:45.791617Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 6 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-18T02:32:50.814155Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 7 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)

@@ -1,0 +1,3 @@
+Exception ignored in: <module 'threading' from 'D:\\Environment\\anaconda\\Lib\\threading.py'>
+Traceback (most recent call last):
+  File "D:\Environment\anaconda\Lib\threading.py", line 1534, in _shutdown

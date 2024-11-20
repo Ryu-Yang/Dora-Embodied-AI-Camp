@@ -1,0 +1,118 @@
+
+    ⚠ The version of the Rerun Viewer available on your PATH does not match the version of your Rerun SDK ⚠
+
+    Rerun does not make any kind of backwards/forwards compatibility guarantee yet: this can lead to (subtle) bugs.
+
+    > Rerun Viewer: v0.15.1 (executable: "rerun")
+    > Rerun SDK: v0.19.1
+
+    You can install an appropriate version of the Rerun Viewer via binary releases:
+    * Using `cargo`: `cargo binstall --force rerun-cli@0.19.1` (see https://github.com/cargo-bins/cargo-binstall)
+    * Via direct download from our release assets: https://github.com/rerun-io/rerun/releases/0.19.1/
+    * Using `pip`: `pip3 install rerun-sdk==0.19.1`
+
+    For more information, refer to our complete install documentation over at:
+    https://rerun.io/docs/getting-started/installing-viewer
+    
+[2024-11-14T08:08:24Z INFO  re_sdk_comms::server] Hosting a SDK server over TCP at 0.0.0.0:9876. Connect with the Rerun logging SDK.
+[2024-11-14T08:08:24Z INFO  egui_wgpu] There were 2 available wgpu adapters: {backend: Vulkan, device_type: DiscreteGpu, name: "NVIDIA GeForce RTX 3080 Laptop GPU", driver: "NVIDIA", driver_info: "556.12", vendor: 0x10DE, device: 0x24DC}, {backend: Vulkan, device_type: IntegratedGpu, name: "Intel(R) UHD Graphics", driver: "Intel Corporation", driver_info: "Intel driver", vendor: 0x8086, device: 0x9A60}
+[2024-11-14T08:08:24Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59805
+[2024-11-14T08:08:24Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59805: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:24Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59805 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:24Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59812
+[2024-11-14T08:08:24Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59812: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:24Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59812 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:24Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59813
+[2024-11-14T08:08:24Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59813: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:24Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59813 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:25Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59815
+[2024-11-14T08:08:25Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59815: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:25Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59815 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:25Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59816
+[2024-11-14T08:08:25Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59816: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:25Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59816 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:25Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59817
+[2024-11-14T08:08:25Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59817: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:25Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59817 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:25Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59818
+[2024-11-14T08:08:25Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59818: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:25Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59818 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:25Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59827
+[2024-11-14T08:08:25Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59827: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:25Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59827 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59846
+[2024-11-14T08:08:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59846: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59846 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59847
+[2024-11-14T08:08:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59847: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59847 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59848
+[2024-11-14T08:08:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59848: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59848 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59850
+[2024-11-14T08:08:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59850: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59850 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59851
+[2024-11-14T08:08:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59851: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59851 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:27Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59852
+[2024-11-14T08:08:27Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59852: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:27Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59852 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:27Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59853
+[2024-11-14T08:08:27Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59853: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:08:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/dna/40d9744af3f0e21d3b174054f0a935662a574ce0/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:08:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/arkit-scenes/6d920eaa42fb86cfd264d47180ecbecbb6dd3e09/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:08:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/dicom-mri/d5a434f92504e8dda8af6c7f4eded2a9d662c991/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:08:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/segment-anything-model/36438df27a287e5eff3a673e2464af071e665fdf/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:08:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/nuscenes/9c50bf5cadb879ef818ac3d35fe75696a9586cb4/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:08:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/human-pose-tracking/5d62a38b48bed1467698d4dc95c1f9fba786d254/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:08:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/structure-from-motion/af24e5e8961f46a9c10399dbc31b6611eea563b4/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:08:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/rrt-star/fbbda33bdbbfa469ec95c905178ac3653920473a/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:08:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/open-photogrammetry-format/c9bec43a3a3abd725a55ee8eb527a4c0cb01979b/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:08:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/detect-and-track-objects/63d7684ab1504c86a5375cb5db0fc515af433e08/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2m2024-11-14T08:08:31.783433Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Failed to send message after 3 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:08:40.714827Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 6 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:08:45.773695Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 7 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:08:50.825685Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 8 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:08:55.876087Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 9 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:09:00.924977Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 10 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:09:05.983124Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 11 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:09:11.041764Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 12 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:09:16.090209Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 13 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:09:21.138816Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 14 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:09:26.187140Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 15 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:09:31.255917Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 16 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:09:36.304376Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 17 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:09:41.352887Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 18 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:09:46.421970Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 19 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:09:51.452014Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 20 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:09:56.490701Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 21 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:10:01.539185Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 22 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:10:06.587560Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 23 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:10:11.626542Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 24 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:10:16.674210Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 25 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:10:21.714431Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 26 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:10:26.763495Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 27 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:10:31.802370Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 28 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:10:36.821190Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 29 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:10:41.870035Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 30 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:10:46.909416Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 31 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:10:51.978089Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 32 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:10:57.036790Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 33 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:11:02.105292Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 34 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:11:07.154084Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 35 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:11:12.202951Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 36 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:11:17.260960Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 37 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:11:22.309665Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 38 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:11:27.378185Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 39 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:11:32.427654Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 40 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:11:37.495886Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 41 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:11:42.553121Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 42 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:11:47.594632Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 43 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:11:52.645849Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 44 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:11:57.700460Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 45 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:12:02.769802Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 46 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:12:07.816382Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 47 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:12:12.864620Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 48 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:12:17.925291Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 49 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)
+[2m2024-11-14T08:12:22.985058Z[0m [33m WARN[0m [2mre_sdk_comms::buffered_client[0m[2m:[0m Still failing to send message after 50 attempts: Failed to send to Rerun server at 127.0.0.1:9876: 远程主机强迫关闭了一个现有的连接。 (os error 10054)

@@ -1,0 +1,15 @@
+[2m2024-11-19T02:45:37.074085Z[0m [33m WARN[0m [2mdora_node_api::node[0m[2m:[0m failed to close outputs on drop
+
+Caused by:
+   0: failed to receive closed outputs reply from dora-daemon
+   1: failed to sent InputClosed event to remote receiver
+
+      Caused by:
+         0: failed to send event to machine `pi`
+         1: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+
+      Location:
+          D:\a\dora\dora\binaries\daemon\src\inter_daemon.rs:57:14
+
+Location:
+    apis\rust\node\src\node\control_channel.rs:86:30

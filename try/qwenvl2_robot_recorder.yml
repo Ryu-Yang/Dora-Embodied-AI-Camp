@@ -1,0 +1,133 @@
+# pip install dora-keyboard==v0.3.7rc0
+# pip install opencv-python
+# pip install opencv-video-capture
+# pip install dora-qwenvl
+# pip install llama-factory-recorder
+
+#安装rerun, dora-rerun
+# cargo install rerun-cli --locked
+# cd dora\node-hub\dora-rerun
+# cargo install --path .
+nodes:
+  - id: keyboard-listener
+    path: dora-keyboard
+    inputs:
+      tick: dora/timer/millis/10
+    outputs:
+      - char
+    env:
+      DISPLAY: :0
+
+  - id: key-interpolation
+    path: key_interpolation.py
+    inputs:
+      keyboard: keyboard-listener/char
+    outputs:
+      - text
+
+  - id: camera1
+    path: opencv-video-capture  
+    _unstable_deploy:
+      machine: pi
+    inputs:
+      tick: dora/timer/millis/200
+    outputs:
+      - image
+    env:
+      CAPTURE_PATH: 1
+      IMAGE_WIDTH: 640
+      IMAGE_HEIGHT: 480
+      ENCODING: jpeg
+
+  - id: camera2
+    path: opencv-video-capture
+    _unstable_deploy:
+      machine: pi
+    inputs:
+      tick: dora/timer/millis/200
+    outputs:
+      - image
+    env:
+      CAPTURE_PATH: 4
+      IMAGE_WIDTH: 640
+      IMAGE_HEIGHT: 480
+      ENCODING: jpeg
+
+  - id: llama-factory-recorder
+    path: llama-factory-recorder
+    inputs:
+      image_1:
+        source: camera1/image
+        queue_size: 1
+      image_2:
+        source: camera2/image
+        queue_size: 1
+      ground_truth: key-interpolation/text
+    outputs:
+      - text
+    env:
+      DEFAULT_QUESTION: Respond with right, left, forward, backward,stop to move to the red line
+      LLAMA_FACTORY_ROOT_PATH: E:/Work/LLaMA-Factory
+
+  - id: plot
+    path: dora-rerun
+    inputs:
+      image_1:
+        source: camera1/image
+        queue_size: 1
+      image_2:
+        source: camera2/image
+        queue_size: 1
+      textlog_vlm: llama-factory-recorder/text
+    env:
+      IMAGE_WIDTH: 640
+      IMAGE_HEIGHT: 480
+      RERUN_MEMORY_LIMIT: 50%
+      README: |
+        To control the robot, use the following keys:
+        - w: move forward
+        - s: move backward
+        - a: move left
+        - d: move right
+        - q: stop
+        - r: open gripper
+        - t: close gripper
+        - h: move arm left
+        - k: move arm right
+        - y: move arm down
+        - i: move arm up
+        - u: move arm forward
+        - j: move arm backward
+        - v: go home
+        - b: save home
+
+  - id: arm-interpolation
+    path: arm_interpolation.py
+    inputs:
+      keyboard: llama-factory-recorder/text
+    outputs:
+      - movec
+      - movej
+      - claw
+      - go_to
+      - save
+
+  - id: arm 
+    path: dora-gen72
+    _unstable_deploy:
+      machine: pi
+    inputs:
+      movec: arm-interpolation/movec
+      movej: arm-interpolation/movej
+      claw: arm-interpolation/claw
+      go_to: arm-interpolation/go_to
+      save: arm-interpolation/save
+    env:
+      ROBOT_IP: 192.168.1.18
+
+  # - id: chassis
+  #   path: robot
+  #   _unstable_deploy:
+  #     machine: pi
+  #   inputs:
+  #     text: llama-factory-recorder/text

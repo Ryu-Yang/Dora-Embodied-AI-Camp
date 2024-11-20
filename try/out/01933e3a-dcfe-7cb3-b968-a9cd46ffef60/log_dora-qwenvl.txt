@@ -1,0 +1,24 @@
+2024-11-18 15:44:29.214489: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-11-18 15:44:30.095061: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Downloading Model to directory: C:\Users\fuyus\.cache\modelscope\hub\Qwen/Qwen2-VL-2B-Instruct
+Downloading [model-00001-of-00002.safetensors]:   0%|          | 0.00/3.71G [00:00<?, ?B/s]Downloading [model-00001-of-00002.safetensors]: 100%|��������������������| 3.70G/3.71G [00:01<00:00, 3.23GB/s]Downloading [model-00001-of-00002.safetensors]: 100%|��������������������| 3.71G/3.71G [00:02<00:00, 1.54GB/s]
+2024-11-18 15:44:43,579 - modelscope - ERROR - File C:\Users\fuyus\.cache\modelscope\hub\._____temp\Qwen\Qwen2-VL-2B-Instruct\model-00001-of-00002.safetensors integrity check failed, expected sha256 signature is 994ac2b03f97de8bc647d0fe5eba2e4b632b3e28dc03574c29bdfc36cf47e1b9, actual is c8ca1d6a8f9b8ff9995e344c1dbc8983f9468ec655ad435dbb078e471f6b0a31, the download may be incomplete, please try again.
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\Scripts\dora-qwenvl.exe\__main__.py", line 4, in <module>
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\site-packages\dora_qwenvl\main.py", line 19, in <module>
+    MODEL_NAME_OR_PATH = snapshot_download(MODEL_NAME_OR_PATH)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\site-packages\modelscope\hub\snapshot_download.py", line 85, in snapshot_download
+    return _snapshot_download(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\site-packages\modelscope\hub\snapshot_download.py", line 249, in _snapshot_download
+    _download_file_lists(
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\site-packages\modelscope\hub\snapshot_download.py", line 445, in _download_file_lists
+    download_file(url, repo_file, temporary_cache_dir, cache, headers,
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\site-packages\modelscope\hub\file_download.py", line 612, in download_file
+    file_integrity_validation(temp_file, file_meta[FILE_HASH])
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\site-packages\modelscope\hub\utils\utils.py", line 127, in file_integrity_validation
+    raise FileIntegrityError(msg)
+modelscope.hub.errors.FileIntegrityError: File C:\Users\fuyus\.cache\modelscope\hub\._____temp\Qwen\Qwen2-VL-2B-Instruct\model-00001-of-00002.safetensors integrity check failed, expected sha256 signature is 994ac2b03f97de8bc647d0fe5eba2e4b632b3e28dc03574c29bdfc36cf47e1b9, actual is c8ca1d6a8f9b8ff9995e344c1dbc8983f9468ec655ad435dbb078e471f6b0a31, the download may be incomplete, please try again.

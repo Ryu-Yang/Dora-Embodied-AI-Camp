@@ -1,0 +1,8 @@
+Exception ignored in: <module 'threading' from 'D:\\Environment\\anaconda\\Lib\\threading.py'>
+Traceback (most recent call last):
+  File "D:\Environment\anaconda\Lib\threading.py", line 1553, in _shutdown
+    atexit_call()
+  File "D:\Environment\anaconda\Lib\concurrent\futures\thread.py", line 23, in _python_exit
+    def _python_exit():
+    
+KeyboardInterrupt: 

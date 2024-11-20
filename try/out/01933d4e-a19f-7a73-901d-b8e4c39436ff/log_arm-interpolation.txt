@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "\\?\E:\Repositories\Dora-Embodied-AI-Camp\try\arm_interpolation.py", line 5, in <module>
+    node = Node()
+           ^^^^^^
+RuntimeError: Couldn not initiate node from environment variable. For dynamic node, please add a node id in the initialization function.
+
+Caused by:
+   0: failed to init event stream
+   1: subscribe failed: Node plot exited before initializing dora. For more information, run `dora logs 01933d4e-a19f-7a73-901d-b8e4c39436ff plot`.
+
+Location:
+    apis\rust\node\src\event_stream\mod.rs:101:17

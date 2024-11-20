@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\Scripts\llama-factory-recorder.exe\__main__.py", line 7, in <module>
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\site-packages\llama_factory_recorder\main.py", line 174, in main
+    frame = frame[:, :, ::-1]  # OpenCV image (BGR to RGB)
+            ~~~~~^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+[2m2024-11-18T02:49:00.215574Z[0m [33m WARN[0m [2mdora_node_api::event_stream::thread[0m[2m:[0m timeout while waiting for event stream thread

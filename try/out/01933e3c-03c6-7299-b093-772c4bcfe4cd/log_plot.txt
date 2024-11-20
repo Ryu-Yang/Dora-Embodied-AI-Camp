@@ -1,0 +1,8 @@
+Error: Could not initialize dora node
+
+Caused by:
+   0: failed to init event stream
+   1: subscribe failed: Node dora-qwenvl exited before initializing dora. For more information, run `dora logs 01933e3c-03c6-7299-b093-772c4bcfe4cd dora-qwenvl`.
+
+Location:
+    apis\rust\node\src\event_stream\mod.rs:101:17

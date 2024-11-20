@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\Scripts\dora-rerun.exe\__main__.py", line 4, in <module>
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\site-packages\dora_rerun\__init__.py", line 1, in <module>
+    from .dora_rerun import *
+ImportError: dynamic module does not define module export function (PyInit_dora_rerun)

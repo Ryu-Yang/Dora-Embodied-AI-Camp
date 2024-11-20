@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\Scripts\dora-keyboard.exe\__main__.py", line 7, in <module>
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\site-packages\dora_keyboard\main.py", line 11, in main
+    event = events.get(1.0)
+            ^^^^^^^^^^^^^^^
+  File "C:\Users\fuyus\AppData\Roaming\Python\Python311\site-packages\pynput\_util\__init__.py", line 345, in get
+    event = self._event_queue.get(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Environment\anaconda\Lib\queue.py", line 180, in get
+    self.not_empty.wait(remaining)
+  File "D:\Environment\anaconda\Lib\threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

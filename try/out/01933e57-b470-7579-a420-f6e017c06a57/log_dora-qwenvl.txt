@@ -1,0 +1,12 @@
+2024-11-18 16:15:58.780089: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-11-18 16:15:59.614948: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|����������     | 1/2 [00:03<00:03,  3.44s/it]Loading checkpoint shards: 100%|��������������������| 2/2 [00:03<00:00,  1.69s/it]Loading checkpoint shards: 100%|��������������������| 2/2 [00:03<00:00,  1.96s/it]
+C:\Users\fuyus\AppData\Roaming\Python\Python311\site-packages\transformers\models\qwen2_vl\modeling_qwen2_vl.py:404: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:555.)
+  attn_output = F.scaled_dot_product_attention(q, k, v, attention_mask, dropout_p=0.0)
+forrtl: error (200): program aborting due to control-C event
+Image              PC                Routine            Line        Source             
+libifcoremd.dll    00007FF8777ADF54  Unknown               Unknown  Unknown
+KERNELBASE.dll     00007FFA7CC0DC07  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFA7E6E259D  Unknown               Unknown  Unknown
+ntdll.dll          00007FFA7F6EAF38  Unknown               Unknown  Unknown

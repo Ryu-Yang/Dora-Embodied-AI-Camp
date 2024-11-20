@@ -1,0 +1,75 @@
+
+    ⚠ The version of the Rerun Viewer available on your PATH does not match the version of your Rerun SDK ⚠
+
+    Rerun does not make any kind of backwards/forwards compatibility guarantee yet: this can lead to (subtle) bugs.
+
+    > Rerun Viewer: v0.15.1 (executable: "rerun")
+    > Rerun SDK: v0.19.1
+
+    You can install an appropriate version of the Rerun Viewer via binary releases:
+    * Using `cargo`: `cargo binstall --force rerun-cli@0.19.1` (see https://github.com/cargo-bins/cargo-binstall)
+    * Via direct download from our release assets: https://github.com/rerun-io/rerun/releases/0.19.1/
+    * Using `pip`: `pip3 install rerun-sdk==0.19.1`
+
+    For more information, refer to our complete install documentation over at:
+    https://rerun.io/docs/getting-started/installing-viewer
+    
+[2024-11-14T08:12:24Z INFO  re_sdk_comms::server] Hosting a SDK server over TCP at 0.0.0.0:9876. Connect with the Rerun logging SDK.
+[2024-11-14T08:12:24Z INFO  egui_wgpu] There were 2 available wgpu adapters: {backend: Vulkan, device_type: DiscreteGpu, name: "NVIDIA GeForce RTX 3080 Laptop GPU", driver: "NVIDIA", driver_info: "556.12", vendor: 0x10DE, device: 0x24DC}, {backend: Vulkan, device_type: IntegratedGpu, name: "Intel(R) UHD Graphics", driver: "Intel Corporation", driver_info: "Intel driver", vendor: 0x8086, device: 0x9A60}
+[2024-11-14T08:12:24Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59946
+[2024-11-14T08:12:24Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59946: SDK client is using a newer protocol version (1) than the SDK server (0)
+Error: Could not initialize dora node
+
+Caused by:
+   0: failed to init event stream
+   1: subscribe failed: Node camera1 exited before initializing dora. For more information, run `dora logs 019329bb-065b-7358-9a52-d57c97ef8b4b camera1`.
+
+Location:
+    apis\rust\node\src\event_stream\mod.rs:101:17
+[2024-11-14T08:12:24Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59946 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:25Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59963
+[2024-11-14T08:12:25Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59963: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:25Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59963 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59977
+[2024-11-14T08:12:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59977: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59977 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59978
+[2024-11-14T08:12:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59978: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59978 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59979
+[2024-11-14T08:12:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59979: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59979 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59980
+[2024-11-14T08:12:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59980: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59980 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59981
+[2024-11-14T08:12:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59981: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59981 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59982
+[2024-11-14T08:12:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59982: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59982 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59983
+[2024-11-14T08:12:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59983: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59983 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59985
+[2024-11-14T08:12:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59985: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59985 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59986
+[2024-11-14T08:12:26Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59986: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:26Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59986 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:27Z INFO  re_sdk_comms::server] New SDK client connected: 127.0.0.1:59987
+[2024-11-14T08:12:27Z WARN  re_sdk_comms::server] Closing connection to client at 127.0.0.1:59987: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:27Z WARN  re_viewer::app] Data source tcp://127.0.0.1:59987 has left unexpectedly: SDK client is using a newer protocol version (1) than the SDK server (0)
+[2024-11-14T08:12:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/plots/e8e51071f6409f61dc04a655d6b9e1caf8179226/480w.png": Failed to read response body: 应用程序没有调用 WSAStartup，或者 WSAStartup 失败。 (os error 10093)
+[2024-11-14T08:12:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/rrt-star/fbbda33bdbbfa469ec95c905178ac3653920473a/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:12:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/arkit-scenes/6d920eaa42fb86cfd264d47180ecbecbb6dd3e09/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:12:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/nuscenes/9c50bf5cadb879ef818ac3d35fe75696a9586cb4/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:12:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/raw-mesh/7731418dda47e15dbfc0f9a2c32673909071cb40/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:12:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/dna/40d9744af3f0e21d3b174054f0a935662a574ce0/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:12:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/segment-anything-model/36438df27a287e5eff3a673e2464af071e665fdf/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:12:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/dicom-mri/d5a434f92504e8dda8af6c7f4eded2a9d662c991/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:12:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/structure-from-motion/af24e5e8961f46a9c10399dbc31b6611eea563b4/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:12:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/open-photogrammetry-format/c9bec43a3a3abd725a55ee8eb527a4c0cb01979b/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:12:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/rgbd/2fde3a620adc8bd9a5680260f0792d16ac5498bd/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:12:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/detect-and-track-objects/63d7684ab1504c86a5375cb5db0fc515af433e08/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)
+[2024-11-14T08:12:27Z ERROR egui_extras::loaders::ehttp_loader] Failed to load "https://static.rerun.io/human-pose-tracking/5d62a38b48bed1467698d4dc95c1f9fba786d254/480w.png": Failed to read response body: 你的主机中的软件中止了一个已建立的连接。 (os error 10053)

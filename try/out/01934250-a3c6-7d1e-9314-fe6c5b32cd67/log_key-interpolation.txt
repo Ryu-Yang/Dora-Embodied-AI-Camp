@@ -1,0 +1,4 @@
+arm right
+Traceback (most recent call last):
+  File "\\?\E:\Repositories\Dora-Embodied-AI-Camp\try\key_interpolation.py", line -1, in <module>
+KeyboardInterrupt
